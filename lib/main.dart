@@ -121,7 +121,7 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
           )
         : AppBar(
-            title: Text('Flutter App'),
+            title: Text('Personal Expenses'),
             actions: [
               IconButton(
                   onPressed: () => _startAddNewTransaction(context),
